@@ -38,7 +38,7 @@ function App() {
       <NavBar />
       <div className="container">
         <div className="jumbotron">
-          <Jumbotron/>
+          <Jumbotron welcome="Holanda que Talca!" text="Estas fotos fueron creadas por MidJourney, IA Generativa para crear imagenes" button="Vamos!"/>
         </div>
         <div className='row'>
           {data.map((item) => {
